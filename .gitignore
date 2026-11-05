@@ -1,0 +1,30 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---------- 数据集（体积过大，可用 torchvision 自动下载）----------
+第三次学习/dataset/
+*.tar.gz
+*.zip
+
+# ---------- TensorBoard 日志（体积大，且为可再生的训练记录）----------
+**/events.out.tfevents.*
+第二次学习/logs*/
+第三次学习/loader/
+第四次学习/logs*/
+第五次学习/logs*/
+
+# ---------- WorkBuddy 本地配置 ----------
+.workbuddy/
+
+# ---------- 系统 / 编辑器的杂项文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
